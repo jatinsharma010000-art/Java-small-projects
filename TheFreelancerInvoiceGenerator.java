@@ -6,7 +6,7 @@ public class TheFreelancerInvoiceGenerator {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the hourly rate: "); // ask the user to enter their hourly rate
-        double hourlyRate = sc.nextDouble(); // used double data type better precision.
+        double hourlyRate = sc.nextDouble(); // used double data type for better precision.
 
         System.out.print("Total hour worked: "); // ask the user to enter the total hour they worked
         int totalHoursWorked = sc.nextInt(); // used integer data types because time must be counted as the whole number

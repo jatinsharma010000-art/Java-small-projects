@@ -15,9 +15,9 @@ public class TheFreelancerInvoiceGenerator {
         double tax = basePay * 15 / 100;
         double finalNetPay = basePay - tax;
 
-        System.out.println("Your Base Pay: " + basePay);
-        System.out.println("Tax: " + tax);
-        System.out.println("Final Net Pay: " + finalNetPay);
+        System.out.println("Base Pay : " + basePay);
+        System.out.println("Tax : " + tax);
+        System.out.println("Final Net Pay : " + finalNetPay);
 
         // printing all the detail as the invoice for the freelancer
 

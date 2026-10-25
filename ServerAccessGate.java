@@ -19,7 +19,7 @@ public class ServerAccessGate {
             System.out.println("Error: Invalid clearance code detected.");
         }
 
-        sc.close();
+        sc.close(); // close the scanner object
 
     }
 

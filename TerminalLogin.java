@@ -4,7 +4,7 @@ public class TerminalLogin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int PIN = 8888; // initilize the PIN
+        final int PIN = 8888; // initilize the PIN
 
         System.out.print("Enter the PIN : "); // asking the user for the PIN
         int userPIN = sc.nextInt(); // this is where the user will enter their PIN

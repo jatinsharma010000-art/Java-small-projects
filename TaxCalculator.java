@@ -2,7 +2,7 @@ public class TaxCalculator {
 
     public static int calculateTax(int amount) {
         int tax = amount / 10;
-        return tax; // method with the return type, pass the global copy.
+        return tax; // method with a return type hands back the final calculated value
     }
 
     public static void main(String[] args) {
